@@ -879,7 +879,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .slider-bgd{
-  background-image: url("/assets/img/slider-bgd.svg");
+  background-image: url("../img/slider-bgd.svg");
   width: 4527px;
   height:2613px;
   position: absolute;
