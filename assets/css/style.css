@@ -821,6 +821,16 @@ section {
     color:var(--primary);
 }
 
+@media (min-width: 767px) {
+
+  .services .icon-box h4 {
+    font-size: 30px;
+  }
+}
+
+
+
+
 .services .icon-box h4 a {
   color: var(--primary);
   transition: ease-in-out 0.3s;
@@ -1064,6 +1074,10 @@ section {
 
 .team .member:hover {
   transform: translateY(-10px);
+}
+
+.no-hover:hover {
+  transform:none !important;
 }
 
 .team .member .member-info {
